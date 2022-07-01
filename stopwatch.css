@@ -1,0 +1,44 @@
+body{
+    background-image: url(time.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    font-family: fantasy;
+}
+.stopwatch{
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+    border-radius: 50px;
+    letter-spacing: 3px;
+    
+}
+#second,#tens{
+    font-size: 40px;
+}
+button{
+    border-radius: 60%;
+    background-color: black;
+    color:rgb(78, 180, 180);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 32px;
+    padding: 30px;
+    border: 4px groove rgb(78, 180, 180);
+}
+button:hover{
+    background-color: rgb(78, 180, 180);
+    color: black;
+    border: 4px groove black;
+}
+h1{
+    font-family: cursive;
+    font-size: 40px;
+    color: rgb(78, 180, 180);
+    text-shadow: 5px 6px 7px rgb(78, 180, 180);
+}
+p{
+    color: white;
+}
